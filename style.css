@@ -347,7 +347,7 @@ body {
 }
 
 .fun-item-button-info {
-    padding-top: 20px ;
+    padding-top: 20px;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: -0.500211px;
@@ -408,7 +408,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -484,7 +484,7 @@ body {
 }
 
 .omega-footer-item-link {
-    margin-left: 30px ;
+    margin-left: 30px;
     text-decoration: none;
     font-size: 16px;
     line-height: 38px;
