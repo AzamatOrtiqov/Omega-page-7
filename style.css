@@ -172,3 +172,119 @@ body {
 .subdropdown:hover .subdropdown-icon {
     transform: rotate(90deg);
 }
+
+.travel .container {
+    margin: 70px auto 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-photo-section,
+.travel-content-section {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+}
+
+.travel-photo-section-img {
+    object-fit: contain;
+}
+
+.travel-content-section {
+    flex-direction: column;
+}
+
+.travel-content-section-title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.travel-content-section-info {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    margin-bottom: 55px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    margin-right: auto;
+    padding: 10px 20px;
+}
+
+.input {
+    padding: 10px 0;
+    margin-left: 10px;
+    border: none;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    padding: 10px 30px;
+    margin-left: 10px;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+}
+
+.feedback {
+    background-color: #5454D4;
+}
+
+.feedback .container {
+    padding: 115px 0;
+}
+
+.feedback-item-img {
+    object-fit: contain;
+    width: 150px;
+}
+
+.feedback-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.feedback-info {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #FFFFFF;
+    margin: 27px auto;
+}
+
+.people {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: rgba(255, 255, 255, 0.7);
+}
