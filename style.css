@@ -288,3 +288,68 @@ body {
     letter-spacing: -0.500211px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.fun .container {
+    margin: 110px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fun-content-section,
+.fun-photo-section {
+    width: 45%;
+}
+
+.fun-title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    margin-bottom: 25px;
+}
+
+.fun-info {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    margin-bottom: 45px;
+}
+
+.fun-item {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.fun-item-button-img {
+    object-fit: contain;
+    width: 80px;
+}
+
+.fun-item-button {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.fun-item-button:focus {
+    outline: none;
+}
+
+.fun-item-title {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+}
+
+.fun-item-button-info {
+    padding-top: 20px ;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
