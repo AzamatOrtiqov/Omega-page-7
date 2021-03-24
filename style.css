@@ -403,6 +403,8 @@ body {
 }
 
 .background-img-button {
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -418,4 +420,85 @@ body {
 
 .background-img-button-play {
     object-fit: contain;
+}
+
+.app {
+    border-bottom: 1px solid #EAE9F2;
+}
+
+.app .container div {
+    width: 50%;
+    margin: 90px auto;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    margin-bottom: 25px;
+}
+
+.app-info {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    padding: 0 20px 35px 20px;
+}
+
+.app-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-item {
+    margin: 0 10px;
+}
+
+.app-link-img {
+    transition: 0.4s;
+}
+
+.app-link-img:hover {
+    transform: scale(1.1);
+}
+
+.omega-footer .container {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.omega-footer-list {
+    margin-left: auto;
+}
+
+.omega-footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.omega-footer-item-link {
+    margin-left: 30px ;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: right;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    font-weight: 500;
+}
+
+.omega-footer .container div {
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    font-weight: 500;
 }
